@@ -14,7 +14,7 @@ Bot de Telegram para interação gamificada com fãs do time FURIA.
    ```bash
    pip install -r requirements.txt
    ```
-4. Rodar o bot:
+## Rodar o bot:
    ```bash
    python bot.py
    ```
