@@ -1,31 +1,26 @@
-# furia_bot_mvp
-Bot de Telegram para interação gamificada com fãs do time FURIA. Made by: Me ( antoniocarol )
+# Furia Bot MVP
 
-```markdown
-# Chatbot FURIA MVP
+## Configuração do Ambiente
 
-## Descrição
-Bot de Telegram para interação gamificada com fãs do time FURIA.
+Para executar este projeto, você precisa configurar as seguintes variáveis de ambiente em um arquivo `.env`:
 
-## Setup
-1. Clonar repositório
-2. Criar e preencher `.env` a partir de `.env.example`
-3. Instalar dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-## Rodar o bot:
-   ```bash
-   python bot.py
-   ```
+### Variáveis Obrigatórias
 
-## Comandos
-- `/start`: iniciar e escolher jogador
-- `/xp`: ver XP atual
-- `/conquistas`: listar conquistas
+```env
+# Configurações do MongoDB
+MONGODB_URI=mongodb://localhost:27017
+MONGODB_DATABASE=furia_bot
+```
 
-## Próximos passos (v2)
-- Integrar análise real de sentimento
-- Ranking de fãs mais ativos
-- Dashboard com visualização de dados
+## Instalação
 
+1. Clone o repositório
+2. Crie um arquivo `.env` na raiz do projeto usando as variáveis acima como exemplo
+3. Instale as dependências (instruções de instalação serão adicionadas em breve)
+4. Execute o bot (instruções de execução serão adicionadas em breve)
+
+## Estrutura do Projeto
+
+- `src/bot/` - Código fonte principal do bot
+  - `config/` - Arquivos de configuração
+    - `mongodb.py` - Configuração da conexão com MongoDB 
